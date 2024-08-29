@@ -3,11 +3,16 @@
     padding:0;
     font-family:'poppins',sans-serif;
     box-sizing: border-box;
+
 }
+
 .container{
     width:100%;
     min-height:100vh;
-    background:linear-gradient(135deg,#9708cc,#43cbff);
+   
+    /* background:linear-gradient(135deg,#9708cc,#43cbff); */
+    background-image: url(https://w0.peakpx.com/wallpaper/457/740/HD-wallpaper-marvel-studios-all-posters-thumbnail.jpg);
+    background-size: cover;
     padding:10px;
 }
 .todoapp h2 img{
@@ -71,7 +76,7 @@ ul li::before{
     position: absolute;
     height:28px;
     width:28px;
-    border-radius:50%;
+    border-radius:30%;
     background-image: url(circle.png);
     background-size: cover;
     background-position: center;
@@ -85,4 +90,20 @@ ul li.checked{
 }
 ul li.checked::before{
     background-image: url(tick.png);
+}
+ul li span{
+    position: absolute;
+    right:0;
+    top:5px;
+    width:40px;
+    height:40px;
+    font-size:22px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+    border-radius: ;
+
+}
+ul li span:hover{
+    background:#edeef0;
 }
